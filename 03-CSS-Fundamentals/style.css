@@ -1,11 +1,6 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+body {
   color: #444;
+  font-family: sans-serif;
 }
 
 h1,
@@ -136,6 +131,7 @@ a:active {
 /* LVHA */
 
 /* Resolving conflicts */
+/*
 #copyright {
   color: red;
 }
@@ -149,5 +145,14 @@ a:active {
 }
 
 footer p {
-  /*color: green !important;*/
+  color: green !important;
+}
+*/
+
+/*nav a:link {
+  font-size: 18px;
+}*/
+
+nav {
+  font-size: 18px;
 }
