@@ -9,6 +9,22 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
+}
+
 h1,
 h2,
 h3 {
@@ -42,6 +58,11 @@ p {
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 footer p {
@@ -75,16 +96,6 @@ ul {
 
 .related {
   list-style: none;
-}
-
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
 }
 
 body {
