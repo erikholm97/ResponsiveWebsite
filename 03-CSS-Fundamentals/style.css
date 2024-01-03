@@ -67,11 +67,13 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /*display: inline;*/
 }
 
 li:last-child {
@@ -170,6 +172,14 @@ nav a:link {
   margin: 20px;
   padding: 20px;
   display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
 
 /* Resolving conflicts */
