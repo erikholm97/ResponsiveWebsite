@@ -1,0 +1,42 @@
+/*Reset CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: orangered;
+  height: 50px;
+  width: 100%;
+  margin: auto 0;
+}
+
+header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  /*height: 80px;*/
+}
+
+header nav a {
+  margin-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav a:link {
+  text-decoration: none;
+}
+
+header nav a:visited {
+  color: black;
+}
+
+header nav a:hover {
+  color: orangered;
+}
+
+header nav a:active {
+  color: orangered;
+}
