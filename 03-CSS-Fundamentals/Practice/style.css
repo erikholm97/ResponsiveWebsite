@@ -9,6 +9,10 @@
   height: 25px;
 }
 
+.page-top:hover {
+  background-color: hsl(16, 100%, 46%);
+}
+
 .container {
   width: 800px;
   /* margin-left: auto;
