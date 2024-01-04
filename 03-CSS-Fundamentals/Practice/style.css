@@ -4,20 +4,27 @@
   padding: 0;
 }
 
+.page-top {
+  background-color: orangered;
+  height: 25px;
+}
+
 .container {
-  width: 100%;
-  margin: auto 0;
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
 }
 
 header {
   background-color: #f7f7f7;
-  height: 50px;
+  height: 10px;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
   /*height: 80px;*/
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 header nav a {
@@ -48,4 +55,12 @@ img {
 
 .author-text {
   margin-bottom: 15px;
+}
+
+article {
+  width: 500px;
+}
+
+p {
+  line-height: 1.5;
 }
