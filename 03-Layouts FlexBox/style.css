@@ -352,3 +352,22 @@ footer {
   font-weight: normal;
   font-style: italic;
 }
+
+.row {
+  display: flex;
+}
+
+article {
+  flex: 0 0 825px;
+}
+
+aside {
+  /*Not use width use basis*/
+  /*
+    DEFAULTS:
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  */
+  flex: 0 0 300px;
+}
